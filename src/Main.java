@@ -3,15 +3,18 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         /*Scanner scanner = new Scanner(System.in);
 
         // Create some sample products
+=======
+        Scanner scanner = new Scanner(System.in);
+>>>>>>> 1c206e79ec509535214f366621dc361796193a0e
         Product tv = new Electronics("Smart Phone", 523, 65.99, 9, "Vivo", 12);
         Product shirt = new Clothing("Women's Top", 150, 15.99, 20, "M", "Cotton");
-
-        // Add products to the shopping cart
+      // Add products to the shopping cart
         ShoppingCart cart = new ShoppingCart();
         cart.addToCart(tv);
         cart.addToCart(shirt);
@@ -104,4 +107,7 @@ public class Main {
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1c206e79ec509535214f366621dc361796193a0e
