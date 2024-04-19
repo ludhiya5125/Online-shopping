@@ -1,4 +1,5 @@
-public class Clothing extends Product {
+public class Clothing extends Product
+{
     private String size;
     private String material;
 
@@ -9,9 +10,11 @@ public class Clothing extends Product {
     }
 
     @Override
-    public void display() {
+    public void display()
+    {
         super.display();
         System.out.println("Size: " + size);
         System.out.println("Material: " + material);
     }
+
 }
